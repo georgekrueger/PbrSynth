@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		510431F1116C1F890065FC6A /* NewJucerComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5176474D115B22A600FBB642 /* NewJucerComponent.cpp */; };
+		51043207116C1F9A0065FC6A /* UI_Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51C47D2111495C65002BC1E2 /* UI_Main.cpp */; };
+		51043209116C1F9A0065FC6A /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5199205D10B39BBA002A8237 /* Main.cpp */; };
+		510435DC116C251B0065FC6A /* DiscRecording.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 519921DB10B3BEB5002A8237 /* DiscRecording.framework */; };
+		510435DD116C251B0065FC6A /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 519921D610B3BE96002A8237 /* AppKit.framework */; };
+		510435DE116C251B0065FC6A /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 519921D110B3BE74002A8237 /* OpenGL.framework */; };
+		510435DF116C251B0065FC6A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 519921CC10B3BE4F002A8237 /* QuartzCore.framework */; };
+		510435E0116C251B0065FC6A /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 519921C710B3BE35002A8237 /* QuickTime.framework */; };
+		510435E1116C251B0065FC6A /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 519921C210B3BE1D002A8237 /* QTKit.framework */; };
+		510435E2116C251B0065FC6A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 519921BC10B3BE02002A8237 /* AudioToolbox.framework */; };
+		510435E3116C251B0065FC6A /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 519921B610B3BDEC002A8237 /* AudioUnit.framework */; };
+		510435E4116C251B0065FC6A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5199219710B3BC55002A8237 /* WebKit.framework */; };
+		510435E5116C251B0065FC6A /* CoreAudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5199219210B3BC33002A8237 /* CoreAudioKit.framework */; };
+		510435E6116C251B0065FC6A /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5199218D10B3BC19002A8237 /* CoreFoundation.framework */; };
+		510435E7116C251B0065FC6A /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5199217A10B3BB54002A8237 /* IOKit.framework */; };
+		510435E8116C251B0065FC6A /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5199217610B3BB33002A8237 /* CoreMIDI.framework */; };
+		510435E9116C251B0065FC6A /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5199217410B3BB25002A8237 /* CoreAudio.framework */; };
+		510435EA116C251B0065FC6A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5199217210B3BB16002A8237 /* Cocoa.framework */; };
+		510435EB116C251B0065FC6A /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5199208D10B3ADB8002A8237 /* Carbon.framework */; };
+		CB010607126E3406002FA14E /* libPbrSynthLib_OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB010606126E3406002FA14E /* libPbrSynthLib_OSX.a */; };
+		CB010613126E36C9002FA14E /* juce_amalgamated.mm in Sources */ = {isa = PBXBuildFile; fileRef = CB010612126E36C9002FA14E /* juce_amalgamated.mm */; };
+		CBA174491331C85E00947853 /* IPhoneUIEmulator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBA174471331C85E00947853 /* IPhoneUIEmulator.cpp */; };
+		CBAE783E128CEF0B00CEE218 /* libportaudio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBAE783D128CEF0B00CEE218 /* libportaudio.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		510431EB116C1F290065FC6A /* synth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = synth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		510431ED116C1F290065FC6A /* synth-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "synth-Info.plist"; sourceTree = "<group>"; };
+		5176474D115B22A600FBB642 /* NewJucerComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NewJucerComponent.cpp; sourceTree = "<group>"; };
+		5176474E115B22A600FBB642 /* NewJucerComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewJucerComponent.h; sourceTree = "<group>"; };
+		5199205D10B39BBA002A8237 /* Main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Main.cpp; sourceTree = "<group>"; };
+		5199208D10B3ADB8002A8237 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		5199217210B3BB16002A8237 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		5199217410B3BB25002A8237 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
+		5199217610B3BB33002A8237 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = /System/Library/Frameworks/CoreMIDI.framework; sourceTree = "<absolute>"; };
+		5199217A10B3BB54002A8237 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		5199218D10B3BC19002A8237 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		5199219210B3BC33002A8237 /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = /System/Library/Frameworks/CoreAudioKit.framework; sourceTree = "<absolute>"; };
+		5199219710B3BC55002A8237 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
+		519921B610B3BDEC002A8237 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = /System/Library/Frameworks/AudioUnit.framework; sourceTree = "<absolute>"; };
+		519921BC10B3BE02002A8237 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
+		519921C210B3BE1D002A8237 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		519921C710B3BE35002A8237 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+		519921CC10B3BE4F002A8237 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
+		519921D110B3BE74002A8237 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		519921D610B3BE96002A8237 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		519921DB10B3BEB5002A8237 /* DiscRecording.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DiscRecording.framework; path = /System/Library/Frameworks/DiscRecording.framework; sourceTree = "<absolute>"; };
+		51C47D2111495C65002BC1E2 /* UI_Main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UI_Main.cpp; sourceTree = "<group>"; };
+		51C47D2211495C65002BC1E2 /* UI_Main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UI_Main.h; sourceTree = "<group>"; };
+		C6A0FF2C0290799A04C91782 /* synth.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = synth.1; sourceTree = "<group>"; };
+		CB010606126E3406002FA14E /* libPbrSynthLib_OSX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPbrSynthLib_OSX.a; path = ../Lib/build/Debug/libPbrSynthLib_OSX.a; sourceTree = SOURCE_ROOT; };
+		CB010612126E36C9002FA14E /* juce_amalgamated.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = juce_amalgamated.mm; path = juce/juce_amalgamated.mm; sourceTree = "<group>"; };
+		CBA174471331C85E00947853 /* IPhoneUIEmulator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IPhoneUIEmulator.cpp; sourceTree = "<group>"; };
+		CBA174481331C85E00947853 /* IPhoneUIEmulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPhoneUIEmulator.h; sourceTree = "<group>"; };
+		CBAE783D128CEF0B00CEE218 /* libportaudio.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libportaudio.a; path = portaudio/lib/osx/Debug/libportaudio.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		510431E9116C1F290065FC6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				510435DC116C251B0065FC6A /* DiscRecording.framework in Frameworks */,
+				510435DD116C251B0065FC6A /* AppKit.framework in Frameworks */,
+				510435DE116C251B0065FC6A /* OpenGL.framework in Frameworks */,
+				510435DF116C251B0065FC6A /* QuartzCore.framework in Frameworks */,
+				510435E0116C251B0065FC6A /* QuickTime.framework in Frameworks */,
+				510435E1116C251B0065FC6A /* QTKit.framework in Frameworks */,
+				510435E2116C251B0065FC6A /* AudioToolbox.framework in Frameworks */,
+				510435E3116C251B0065FC6A /* AudioUnit.framework in Frameworks */,
+				510435E4116C251B0065FC6A /* WebKit.framework in Frameworks */,
+				510435E5116C251B0065FC6A /* CoreAudioKit.framework in Frameworks */,
+				510435E6116C251B0065FC6A /* CoreFoundation.framework in Frameworks */,
+				510435E7116C251B0065FC6A /* IOKit.framework in Frameworks */,
+				510435E8116C251B0065FC6A /* CoreMIDI.framework in Frameworks */,
+				510435E9116C251B0065FC6A /* CoreAudio.framework in Frameworks */,
+				510435EA116C251B0065FC6A /* Cocoa.framework in Frameworks */,
+				510435EB116C251B0065FC6A /* Carbon.framework in Frameworks */,
+				CB010607126E3406002FA14E /* libPbrSynthLib_OSX.a in Frameworks */,
+				CBAE783E128CEF0B00CEE218 /* libportaudio.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* synth */ = {
+			isa = PBXGroup;
+			children = (
+				51C47D881149E203002BC1E2 /* Libs */,
+				51C47D871149E1F7002BC1E2 /* Frameworks */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6A0FF2B0290797F04C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+				510431ED116C1F290065FC6A /* synth-Info.plist */,
+			);
+			name = synth;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				CBA174471331C85E00947853 /* IPhoneUIEmulator.cpp */,
+				CBA174481331C85E00947853 /* IPhoneUIEmulator.h */,
+				CB010612126E36C9002FA14E /* juce_amalgamated.mm */,
+				5176474D115B22A600FBB642 /* NewJucerComponent.cpp */,
+				5176474E115B22A600FBB642 /* NewJucerComponent.h */,
+				51C47D2111495C65002BC1E2 /* UI_Main.cpp */,
+				51C47D2211495C65002BC1E2 /* UI_Main.h */,
+				5199205D10B39BBA002A8237 /* Main.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				510431EB116C1F290065FC6A /* synth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51C47D871149E1F7002BC1E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				519921DB10B3BEB5002A8237 /* DiscRecording.framework */,
+				519921D610B3BE96002A8237 /* AppKit.framework */,
+				519921D110B3BE74002A8237 /* OpenGL.framework */,
+				519921CC10B3BE4F002A8237 /* QuartzCore.framework */,
+				519921C710B3BE35002A8237 /* QuickTime.framework */,
+				519921C210B3BE1D002A8237 /* QTKit.framework */,
+				519921BC10B3BE02002A8237 /* AudioToolbox.framework */,
+				519921B610B3BDEC002A8237 /* AudioUnit.framework */,
+				5199219710B3BC55002A8237 /* WebKit.framework */,
+				5199219210B3BC33002A8237 /* CoreAudioKit.framework */,
+				5199218D10B3BC19002A8237 /* CoreFoundation.framework */,
+				5199217A10B3BB54002A8237 /* IOKit.framework */,
+				5199217610B3BB33002A8237 /* CoreMIDI.framework */,
+				5199217410B3BB25002A8237 /* CoreAudio.framework */,
+				5199217210B3BB16002A8237 /* Cocoa.framework */,
+				5199208D10B3ADB8002A8237 /* Carbon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51C47D881149E203002BC1E2 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				CBAE783D128CEF0B00CEE218 /* libportaudio.a */,
+				CB010606126E3406002FA14E /* libPbrSynthLib_OSX.a */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		C6A0FF2B0290797F04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6A0FF2C0290799A04C91782 /* synth.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		510431EA116C1F290065FC6A /* synth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 510431F0116C1F2A0065FC6A /* Build configuration list for PBXNativeTarget "synth" */;
+			buildPhases = (
+				510431E7116C1F290065FC6A /* Resources */,
+				510431E8116C1F290065FC6A /* Sources */,
+				510431E9116C1F290065FC6A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = synth;
+			productName = synth;
+			productReference = 510431EB116C1F290065FC6A /* synth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "PbrSynth_PCApp" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* synth */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				510431EA116C1F290065FC6A /* synth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		510431E7116C1F290065FC6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		510431E8116C1F290065FC6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51043207116C1F9A0065FC6A /* UI_Main.cpp in Sources */,
+				51043209116C1F9A0065FC6A /* Main.cpp in Sources */,
+				510431F1116C1F890065FC6A /* NewJucerComponent.cpp in Sources */,
+				CB010613126E36C9002FA14E /* juce_amalgamated.mm in Sources */,
+				CBA174491331C85E00947853 /* IPhoneUIEmulator.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB928A08733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_USE_GCC3_PFE_SUPPORT = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					portaudio/include,
+					juce,
+				);
+				LIBRARY_SEARCH_PATHS = portaudio/lib;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB928B08733DD80010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_USE_GCC3_PFE_SUPPORT = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					portaudio/include,
+					juce,
+				);
+				LIBRARY_SEARCH_PATHS = portaudio/lib;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+		510431EE116C1F2A0065FC6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = (
+					../Lib,
+					portaudio/include,
+					juce,
+				);
+				INFOPLIST_FILE = "synth-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/portaudio/lib/osx\"",
+					"\"$(SRCROOT)/../Lib/build/Debug\"",
+					"\"$(SRCROOT)/portaudio/lib/osx/Debug\"",
+				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = synth;
+			};
+			name = Debug;
+		};
+		510431EF116C1F2A0065FC6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "synth-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/portaudio/lib\"",
+					"\"$(SRCROOT)/juce/bin\"",
+					"\"$(SRCROOT)/portaudio/lib/osx\"",
+					"\"$(SRCROOT)/../Lib/build/Debug\"",
+					"\"$(SRCROOT)/portaudio/lib/osx/Debug\"",
+				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = synth;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "PbrSynth_PCApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928A08733DD80010E9CD /* Debug */,
+				1DEB928B08733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		510431F0116C1F2A0065FC6A /* Build configuration list for PBXNativeTarget "synth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				510431EE116C1F2A0065FC6A /* Debug */,
+				510431EF116C1F2A0065FC6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
